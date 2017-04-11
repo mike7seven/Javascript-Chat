@@ -18,4 +18,4 @@ $("#chat-input").keydown(function(event) {
 //
 socket.on("chat-message"), function(message) {
     $("chat-container").append(message + "<br />")
-};
+});
